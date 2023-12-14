@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+         form{
+            display:contents;
+         }
+       form div.s1{
+    
+        padding:50px;
+        width:80%;
+       }
+      form div.s11
+      {
+        text-align: center;
+        border: 1px;
+      }
+        
+      
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Conference Online Registration</h1>
+    <h4 style="text-align: center;">please fill in the form below.We'll contact you as soon as possible</h4>
+    <hr>
+    <form action="" method="post">
+        <table>
+
+    
+         
+    <label><br><b>Full Name</b></label></th><br>
+    <input type="text" placeholder="FirstName"  name="name" > 
+     <input type="text" placeholder="Lastname"  name="name">
+            
+                <tr>
+       <th><label>Area</label></th>
+        <td><select name="please select" rows="2" cols="3"  name="name" >
+            <option value="select">select</option>
+            <option value="Kanuvaipalayam">Kanuvaipalayam</option>
+            <option value="Bujaganur">Bujaganur</option>
+            <option value="Seeliyur">Seeliyur</option>
+            <option value="Thootaipirivu">Thootaipirivu</option>
+            <option value="Marudhur">Marudhur</option>
+        </select> </td> <br>
+        </tr>
+    
+            <tr>
+      <th><label>Address</label></th>
+      <td><textarea name="address" rows="2" cols="40" ></textarea></td> 
+        
+       <th><label>Street</label></th>
+     <br>  <td><input type="text" name="value"><br></td>
+       </tr>
+       
+       
+            <tr>
+      <th><label for="city">City</label></th> 
+      <td><input type="text" name="value"></td>
+       <th> <label for="state">State</label> </th>
+        <td><input type="text"  name="value"></td>
+        </tr>
+    
+       
+    
+        <tr>
+       <th><label for="pincode">Pincode</label> </th>
+      <td> <input type="text"  name="value"></td>
+      
+      <th><label for="country">Country</label></th>
+      <td> <select name="please select" rows="5" cols="6"  name="name">
+        <option value="Select">Select</option>
+        <option value="India">India</option>
+        <option value="Japan">Japan</option>
+        <option value="US">US</option>
+        <option value="Australia">Australia</option>
+        <option value="China">China</option>
+      </select>  </td>
+      </tr>
+      
+       
+        <tr>
+       <th><label for="email">Email Address</label></th>
+       <td><input type="text" placeholder="ex:name@gmail.com" name="value"></td>
+       </tr>
+    
+      
+        <tr>
+        <th><label>Phone Number</label></th>
+       <td><input type="text" placeholder="000 000 0000" name="value"><br></td>
+      </tr>
+      </table>
+     
+      
+        <tr>
+     <label><b>First time to attend this Conference</b></label><br>
+     <td><input type="radio"  id="Yes" name="yes" value="Yes">
+        <label for="yes">Yes</label><br>
+    <input type="radio"  id="no" name="No" value="No">
+    <label for="no">No</label><br>
+    </tr>
+
+   
+    
+        <tr>
+          <br> <label><b>I will attend</b></label><br>
+            <td><input type="checkbox" id="event1" name="date of event1" value="date of event1">
+             <label for="event1">Event1-Date of Event1</label><br>
+                <input type="checkbox" id="event2" name="date of event2" value="date of event2">
+                <label for="event2">Event2-Date of Event2</label><br>
+                <input type="checkbox" id="event3" name="date of event3" value="date of event3">
+                <label for="event3">Event3-Date of Event3</label></td><br>
+        </tr>
+   
+        <tr>
+ <br><label for="T-Shirts"><b>What's Your T-Shirt Size</b><br></label></th>
+      <td> <select name="please select" rows="7" cols="8"  name="name">
+        <option value="Select">Select</option>
+        <option value="l size">l Size</option>
+        <option value="s size">S Size</option>
+        <option value="xl size">Xl Size</option>
+        <option value="xxl size">XXL Size</option>
+        <option value="xxxl size">XXXL Size</option>
+      </select> </td><br>
+      </tr>
+      
+     <br> <label><b>Registration Fee</b><br></label>
+        
+      <input type="checkbox" id="personal fee" name="personal" value="fee">
+        <label for="personal fee">   <pre>       Conference Regisration Fee (Personal)          $50.00</pre>   </label>
+        <hr>
+        <input type="checkbox" id="corporate fee" name="corporate" value="fee">
+        <label for="personal fee">  <pre>       Conference Regisration Fee (Corporate)           $300.00</pre>   </label>
+        <label># of participants</label>
+        <input type="number" name="num" min="1" max="6">
+        <hr>
+       <pre>                                               Total     $0.00</pre><br>
+       <div class="s11">
+       <label>Related Files</label><br>
+       <input type="file" name="filetoupload" value="filetoupload"><br>
+       </div>
+       <input type="checkbox" href="# i agree to terms&condition">I agree to terms&condition <br>
+       <hr>
+       <input type="submit" name="submit">
+    </table>
+    </form>
+</body>
+</html>
